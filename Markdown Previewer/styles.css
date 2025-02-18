@@ -1,0 +1,61 @@
+/* General styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #141e30, #243b55); /* Dark gradient background */
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glassmorphism effect for containers */
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 800px;
+  gap: 15px;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Textarea and preview styling */
+textarea,
+#preview {
+  padding: 15px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-size: 16px;
+  resize: none;
+  height: 300px;
+  overflow-y: auto;
+}
+
+/* Animations for hover effects */
+textarea:hover,
+#preview:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease-in-out;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #76d7c4;
+  box-shadow: 0 0 10px #76d7c4;
+}
