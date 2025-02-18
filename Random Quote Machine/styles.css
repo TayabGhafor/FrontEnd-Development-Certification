@@ -1,0 +1,146 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #121212; 
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  transition: background-color 0.3s ease;
+}
+
+/* Container for the quote machine */
+.quote-container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(10px); 
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 600px; 
+  transition: all 0.3s ease;
+}
+
+/* Styling the quote text */
+#text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #e0e0e0;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+/* Styling the author text */
+#author {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #b0b0b0;
+  margin-bottom: 30px;
+  transition: color 0.3s ease;
+}
+
+/* Button Styling */
+button, a {
+  padding: 15px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #ff5722; 
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+/* New Quote Button */
+#new-quote {
+  margin-top: 20px;
+  background-color: #2196f3; 
+}
+
+/* Tweet Button Styling */
+#tweet-quote {
+  margin-top: 20px;
+  background-color: #1da1f2; 
+  padding: 15px 25px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Hover and Focus Effects */
+button:hover, a:hover, button:focus, a:focus {
+  transform: scale(1.05); 
+  background-color: #ff784e; 
+  transition: all 0.3s ease;
+}
+
+button:active, a:active {
+  transform: scale(0.98); 
+  background-color: #e64a19; 
+}
+
+/* Additional Styling for the Container */
+.quote-container:hover {
+  background: rgba(255, 255, 255, 0.2); 
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+}
+
+body:hover {
+  background: #0a0a0a; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .quote-container {
+    padding: 20px;
+  }
+
+  #text {
+    font-size: 1.3rem; 
+  }
+
+  #author {
+    font-size: 1rem; 
+  }
+
+  button, a {
+    font-size: 0.9rem; 
+    padding: 12px 20px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .quote-container {
+    padding: 15px;
+    width: 90%;
+    max-width: 400px; 
+  }
+
+  #text {
+    font-size: 1.2rem; 
+  }
+
+  #author {
+    font-size: 0.9rem; 
+  }
+
+  button, a {
+    font-size: 0.8rem; 
+    padding: 10px 15px; 
+  }
+}
