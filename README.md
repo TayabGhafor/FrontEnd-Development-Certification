@@ -45,9 +45,8 @@ Here are the projects I completed, along with live previews on **CodePen**:
 
 ## 🤝 Connect with Me  
 
-💼 **LinkedIn:** [Your Profile Link]  
-🐦 **Twitter:** [Your Profile Link]  
-📧 **Email:** [Your Email]  
+💼 **LinkedIn:** [Tayab Malik](https://www.linkedin.com/in/tayabmalik)
+📧 **Email:** [Tayab Malik](tayabghafor@gmail.com)
 
 If you find this repo helpful, feel free to ⭐️ **star this repository** and follow me for more! 🚀  
 
